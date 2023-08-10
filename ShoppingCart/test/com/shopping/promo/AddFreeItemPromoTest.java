@@ -15,6 +15,7 @@ public class AddFreeItemPromoTest extends TestCase {
 	// add 1 for every 3
 	private AddFreeItemPromo promo = new AddFreeItemPromo("ult_medium", ADDED_PRODUCT_CODE, 0.34);
 
+	//added comment
 	@Override
 	protected void setUp() throws Exception {
 		ProductDao dao = new MockProductDao();
