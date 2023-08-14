@@ -14,6 +14,7 @@ public class ShoppingCartTest extends TestCase {
 	private ProductDao productDao = new MockProductDao();
 	DecimalFormat f = new DecimalFormat("##.00");
 //add comment
+//added new comment
 
 	public void testCart1() {
 		Cart cart = new ShoppingCart();
