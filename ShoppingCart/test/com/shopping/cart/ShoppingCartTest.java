@@ -15,7 +15,7 @@ public class ShoppingCartTest extends TestCase {
 	DecimalFormat f = new DecimalFormat("##.00");
 //add comment
 //added new comment
-
+//added new ocmment
 	public void testCart1() {
 		Cart cart = new ShoppingCart();
 		cart.add(new Item(productDao.getProduct("ult_small"), 3));
