@@ -18,6 +18,7 @@ public class ShoppingCartTest extends TestCase {
 //added new ocmment
 //added new comment
 //added new comment
+//added new comment
 	public void testCart1() {
 		Cart cart = new ShoppingCart();
 		cart.add(new Item(productDao.getProduct("ult_small"), 3));
